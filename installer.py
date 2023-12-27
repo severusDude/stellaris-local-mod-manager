@@ -11,7 +11,7 @@ def get_mod_directory(path: str):
         print("The default Stellaris mod path is not found, please enter the correct one")
         alt_path = input("Path: ")
 
-        get_mod_directory(alt_path)
+        return get_mod_directory(alt_path)
 
 
 def check_available_mods(stellaris_mods: str):
